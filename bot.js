@@ -286,7 +286,4 @@ client.on('message', msg => {
     }
 }
 })
-client.on('ready', () => {
-    client.channels.get("520928819612483594").join(); 
-    });
 client.login(process.env.BOT_TOKEN);
